@@ -9,3 +9,15 @@ HTML Questions:
 2.What are data- attributes good for?
 
 data-是html5的新属性。这种方式通过访问一个元素的 dataset 属性来存取 data-* 自定义属性的值。这个 dataset 属性是HTML5 JavaScript API的一部分，用来返回一个所有选择元素 data- 属性的DOMStringMap对象。
+
+3.Consider HTML5 as an open web platform. What are the building blocks of HTML5?
+
+more semantic text markup
+new form elements
+vedio and audio
+new javascript API
+canvas and SVG
+new communication API
+geolocation API
+web worker API
+new data storage
