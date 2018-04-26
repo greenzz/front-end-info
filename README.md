@@ -17,3 +17,6 @@ new communication API</br>
 geolocation API</br>
 web worker API</br>
 new data storage</br>
+
+4.Describe the difference between a cookie, sessionStorage and localStorage.</br>
+cookie,sessionStorage,localStorage都存储在客户端。
