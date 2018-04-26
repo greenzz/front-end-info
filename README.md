@@ -28,3 +28,11 @@ cookie,sessionStorage,localStorage都存储在客户端。每次客户端对服�
 与此相对，浏览器确保多个 defer 脚本按其在HTML页面中的出现顺序依次执行,且执行时机为DOM解析完成后，document的DOMContentLoaded 事件触发之前。<br/>
   
   6.Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?<br/>
+  浏览器解析文档时候是从上往下单线程方式解析的。<br/>
+
+1、将 css 文件放到头部， css 文件可以先加载。避免先加载 body 中的内容，导致页面一开始样式错乱，出现闪烁等情况。
+
+2、而script标签会阻止文档流，也就是会阻止页面的渲染，意味着必须等到所有的 javascript 代码都被 下载、解析和执行完成 之后才开始呈现页面内容。同时script中可能会出现对未解析的文档的操作或者其他错误。 
+至于为什么要放在< /body>之前，按照标准来说< /body>之后是不应该再出现标签了。虽然说放在< /body>之后也是能成功执行的，那是因为浏览器帮你把< /body>移动到了文档末尾，这样是不可取的。
+
+3、也存在例外。如果有一些在文档加载前或者过程中需要进行的操作，< script>标签就不应放在结尾。
