@@ -19,4 +19,5 @@ web worker API</br>
 new data storage</br>
 
 4.Describe the difference between a cookie, sessionStorage and localStorage.</br>
-cookie,sessionStorage,localStorage都存储在客户端。
+cookie,sessionStorage,localStorage都存储在客户端。每次客户端对服务器请求，cookie的
+内容都会重新发送回服务器端,cookie会话期内有效，亦可以设置cookie的过期时间。sessionStorage在一个会话期间内有效，同一个窗口打开时可以读取该窗口内的sessionStorage,不同窗口或窗口关闭后重新打开窗口原来的sessionStorage无效。localStorage 一直有效，除非主动删除。
