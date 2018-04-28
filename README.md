@@ -51,6 +51,8 @@ cookie,sessionStorage,localStorage都存储在客户端。每次客户端对服�
 这篇文章对内存泄漏有解释：https://segmentfault.com/a/1190000011229300
 <br/>
 内存引用,垃圾收集算法依赖的主要概念之一就是引用。
+<h3>四种常见的JavaScript泄露</h3>
+1: 全局变量
 
 
 2.闭包的例子
