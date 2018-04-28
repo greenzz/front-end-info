@@ -55,6 +55,8 @@ cookie,sessionStorage,localStorage都存储在客户端。每次客户端对服�
 1: 全局变量<br/>
 2: 被遗忘的计时器和回调<br/>
 3: 闭包<br/>
+4: DOM 之外的引用<br/>
+<br/>
 
 
 2.闭包的例子
