@@ -1,4 +1,4 @@
-HTML Questions:<br />
+<h1>HTML Questions:<h1/><br />
 1.What does a doctype do?<br />
 <!DOCTYPE> 声明必须是 HTML 文档的第一行，位于 <html> 标签之前。<br />
 <!DOCTYPE> 声明不是 HTML 标签；它是指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令。<br />
@@ -36,3 +36,20 @@ cookie,sessionStorage,localStorage都存储在客户端。每次客户端对服�
 至于为什么要放在< /body>之前，按照标准来说< /body>之后是不应该再出现标签了。虽然说放在< /body>之后也是能成功执行的，那是因为浏览器帮你把< /body>移动到了文档末尾，这样是不可取的。
 
 3、也存在例外。如果有一些在文档加载前或者过程中需要进行的操作，< script>标签就不应放在结尾。
+
+
+
+
+
+
+
+
+<br/>
+<h1>Js Part</h1><br/>
+1.内存泄漏<br/>
+实质上，内存泄漏可以被定义为应用程序不再需要的内存，但是由于某些原因不会返回到操作系统或可用内存池。<br/>
+
+2.闭包的例子
+https://segmentfault.com/a/1190000004187681
+<br/>
+
