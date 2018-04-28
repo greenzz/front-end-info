@@ -1,4 +1,4 @@
-<h1>HTML Questions:<h1/><br />
+<h1>HTML Questions:</h1><br />
 1.What does a doctype do?<br />
 <!DOCTYPE> 声明必须是 HTML 文档的第一行，位于 <html> 标签之前。<br />
 <!DOCTYPE> 声明不是 HTML 标签；它是指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令。<br />
