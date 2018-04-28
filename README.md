@@ -48,6 +48,8 @@ cookie,sessionStorage,localStorage都存储在客户端。每次客户端对服�
 <h1>Js Part</h1><br/>
 1.内存泄漏<br/>
 实质上，内存泄漏可以被定义为应用程序不再需要的内存，但是由于某些原因不会返回到操作系统或可用内存池。<br/>
+这篇文章对内存泄漏有解释：https://segmentfault.com/a/1190000011229300
+
 
 2.闭包的例子
 https://segmentfault.com/a/1190000004187681
