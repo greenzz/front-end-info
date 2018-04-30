@@ -63,3 +63,6 @@ cookie,sessionStorage,localStorage都存储在客户端。每次客户端对服�
 https://segmentfault.com/a/1190000004187681
 <br/>
 
+<h1>CSS Questions:</h1><br />
+1.对于没有设置宽度的元素、亦或CSS样式非内嵌式的，js原生写法可以通过offsetWidht来获取宽度,document.getElementById("offsetWidht"), 用style.width是获取不到宽度值的，但却可以用style.width设置宽度。
+
